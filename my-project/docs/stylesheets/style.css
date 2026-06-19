@@ -1,0 +1,17 @@
+:root {
+    --md-primary-fg-color: #5A7863;
+    --md-accent-fg-color: #3B4953;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.md-grid {
+    max-width: 1600px;
+}
+
+.highlight pre {
+    border-radius: 12px;
+    padding: 1rem;
+}

@@ -1,0 +1,24 @@
+site_name: Materiais de Estudo - Prof. Ana Pedrosa
+
+theme:
+  name: material
+
+extra_css:
+  - stylesheets/style.css
+
+nav:
+  - Início: index.md
+
+  - Curso:
+      - Cronograma: curso/cronograma.md
+
+  - Aulas:
+      - Aula 01: aulas/aula01.md
+
+  - Exercícios:
+      - Lista 01: exercicios/lista01.md
+      - Lista 02: exercicios/lista02.md
+
+  - Projetos:
+      - Projeto 01: projetos/projeto01.md
+      - Projeto Final: projetos/projeto_final.md
