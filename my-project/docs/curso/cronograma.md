@@ -35,13 +35,14 @@ Ao longo desta UC, o aluno será capaz de:
 
 Este repositório está organizado por **módulos de aprendizagem**, representando a evolução do desenvolvimento das aplicações.
 
+```
 prog-aplicativos/
 │
 ├── modulo-01-frontend/
 ├── modulo-02-javascript/
 ├── modulo-03-dom/
 └── modulo-04-projeto-final/
-
+```
 ## Módulos da UC
 
 ### Módulo 01 – Frontend (HTML e CSS)

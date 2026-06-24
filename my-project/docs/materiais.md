@@ -2,22 +2,19 @@
 
 ## Instalação
 
-- Python
 - VS Code
+- HTML
+- CSS
+- JAVASCRIPT
 
 ## Documentação
 
-- Documentação Oficial do Python
+- Documentação Oficial JAVASCRIPT
 
-## Vídeos
-
-- Aula de Introdução
-- Aula de Funções
 
 ## Livros
 
-- Python Crash Course
-- Automate the Boring Stuff
+- Lógica de programação com JavaScript
 
 ## Exercícios Extras
 

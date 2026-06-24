@@ -1,17 +1,105 @@
 :root {
+    /* Paleta principal */
     --md-primary-fg-color: #5A7863;
+    --md-primary-fg-color--light: #7E9A86;
+    --md-primary-fg-color--dark: #435A4B;
+
     --md-accent-fg-color: #3B4953;
+
+    /* Bordas */
+    --border-radius: 14px;
 }
 
+/* Fonte geral */
 body {
     font-family: "Inter", sans-serif;
+    font-weight: 400;
 }
 
+/* Largura máxima do conteúdo */
 .md-grid {
-    max-width: 1600px;
+    max-width: 1500px;
 }
 
-.highlight pre {
-    border-radius: 12px;
-    padding: 1rem;
+/* Cabeçalho */
+.md-header {
+    backdrop-filter: blur(12px);
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.08);
 }
+
+/* Sidebar */
+.md-sidebar__scrollwrap {
+    scrollbar-width: thin;
+}
+
+/* Conteúdo principal */
+.md-content {
+    line-height: 1.8;
+}
+
+/* Títulos */
+.md-typeset h1 {
+    font-weight: 800;
+    color: #2F3E46;
+    border-bottom: 2px solid rgba(90, 120, 99, 0.2);
+    padding-bottom: 0.5rem;
+}
+
+.md-typeset h2 {
+    font-weight: 700;
+    color: #4A5D67;
+}
+
+/* Cards para admonitions */
+.md-typeset .admonition,
+.md-typeset details {
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+/* Blocos de código */
+.highlight pre {
+    border-radius: var(--border-radius);
+    padding: 1rem;
+    border: 1px solid rgba(90, 120, 99, 0.15);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Código inline */
+.md-typeset code {
+    border-radius: 6px;
+    padding: 0.2rem 0.4rem;
+}
+
+/* Tabelas */
+.md-typeset table:not([class]) {
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* Links */
+.md-typeset a {
+    transition: all 0.2s ease;
+}
+
+.md-typeset a:hover {
+    opacity: 0.8;
+}
+
+/* Botão voltar ao topo */
+.md-top {
+    border-radius: 50%;
+}
+
+.md-main__inner {
+    margin-top: 1rem;
+}
+
+.md-content__inner {
+    background: white;
+    border-radius: 18px;
+    padding: 2rem;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);
+}
+

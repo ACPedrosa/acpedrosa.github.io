@@ -2,23 +2,36 @@ site_name: Materiais de Estudo - Prof. Ana Pedrosa
 
 theme:
   name: material
+  font:
+    text: Inter
+    code: JetBrains Mono
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+    - search.highlight
 
 extra_css:
   - stylesheets/style.css
 
 nav:
-  - Início: index.md
 
-  - Curso:
+  - Início:
       - Cronograma: curso/cronograma.md
 
-  - Aulas:
-      - Aula 01: aulas/aula01.md
+  - Módulos:
+      - Módulo FrontEnd: aulas/projeto_profile_digital.md
+
+  - Material de Apoio:
+      - HTML: material/html.md
+      - CSS: material/css.md
+      - JavaScript: material/javascript.md
+      - Git: material/git.md
 
   - Exercícios:
       - Lista 01: exercicios/lista01.md
       - Lista 02: exercicios/lista02.md
 
-  - Projetos:
-      - Projeto 01: projetos/projeto01.md
-      - Projeto Final: projetos/projeto_final.md
+    
